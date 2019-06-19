@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #419cf1;
+  min-height: 600px;
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 15px;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.wrapper h1 {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: 100px;
+}
+
+.wrapper h2 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: rgba(12, 6, 22, 0.678);
+}
+
+.wrapper h3 {
+  padding: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  text-align: right;
+}
+
+.wrapper .btns-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper .btns-wrapper .trigger {
+  margin: 0 auto;
+  background: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.wrapper .btns-wrapper .trigger:hover {
+  font-size: 21px;
+}
+
+.wrapper .btns-wrapper .tweet {
+  padding-right: 15px;
+  color: white;
+  font-size: 50px;
+  margin-right: 10px;
+  transition: 0.2s linear;
+}
+
+.wrapper .btns-wrapper .tweet:hover {
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=style.css.map */
